@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat:wght@100&family=Poppins:ital,wght@0,400;0,600;1,100&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Merriweather";
+  background: linear-gradient(180deg, #101c28 40%, #187042 100%);
+  background-repeat: repeat;
+  background-size: cover;
+  overflow-x: hidden;
+  min-height: 665px;
+}
+.comingsoon .background {
+  background-image: url("../img/star.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  z-index: -1;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  width: auto;
+  height: 690px;
+}
+
+.comingsoon .header {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.comingsoon .logoeupho {
+  width: 280px;
+}
+.comingsoon {
+  margin-top: 80px;
+}
+
+.comingsoon .heading1 {
+  color: white;
+  font-size: 38px;
+  font-weight: 800;
+  margin-bottom: 24px;
+}
+
+.backgroundlogo {
+  background: linear-gradient(187.09deg, #187042 5.53%, #234053 92.14%);
+  border-radius: 100px 8px 100px 8px;
+  width: 600px;
+  height: 141px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 48px;
+}
+.backgroundlogo > ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  margin-top: 24px;
+  gap: 42px;
+}
+.backgroundlogo > ul > li {
+  list-style-type: none;
+}
+
+.contactus > .row > .contact > p {
+  color: white;
+  font-size: 18px;
+  display: flex;
+  justify-content: end;
+}
+.contactus > .row > .contact > ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: end;
+}
+.contactus > .row > .contact > ul > li {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.contactus > .row > .contact {
+  padding-bottom: 48px;
+}
+
+/* .contactus > .row > .contact > .starfall {
+  position: absolute;
+  left: 750px;
+  top: 530px;
+  z-index: -1;
+} */
+.form {
+  margin-top: 120px;
+}
+
+.form h1 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.form .gform {
+  width: 640px;
+  height: 680px;
+}
+.form button {
+  color: #ffffff;
+  font-weight: 700;
+  background-color: #3f9396;
+  padding: 10px 24px;
+  border: none;
+  border-radius: 8px;
+  transition: 300ms;
+}
+
+.form button:hover {
+  background-color: #187042;
+  transition: 300ms;
+}
+
+@media screen and (max-width: 768px) {
+}
+@media screen and (max-width: 495px) {
+  .form .gform {
+    width: 400px;
+  }
+
+  .contactus > .row > .contact > p {
+    color: white;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+  }
+  .contactus > .row > .contact > ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+  }
+  body {
+    overflow: hidden;
+    min-height: 800px;
+  }
+
+  .comingsoon .heading1 {
+    font-size: 24px;
+    font-weight: 700;
+  }
+
+  .form h1 {
+    font-size: 28px;
+    font-weight: 700;
+    color: #ffffff;
+  }
+  .comingsoon .paragraph1 {
+    font-size: 14px;
+  }
+
+  .comingsoon .logoeupho {
+    width: 200px;
+  }
+  .comingsoon .contactus {
+    margin-top: 300px;
+  }
+}
+@media screen and (max-width: 495px) and (max-height: 896px ) {
+  .comingsoon {
+    margin-top: 50%;
+  }
+  .comingsoon .contactus {
+    margin-top: 40%;
+  }
+}
+@media screen and (max-width: 495px) and (max-height: 640px) {
+  .comingsoon .logoeupho {
+    width: 170px;
+  }
+  .comingsoon {
+    margin-top: 5%;
+  }
+  .comingsoon .contactus {
+    margin-top: 0px;
+  }
+}
+@media screen and (max-width: 495px) and (max-height: 740px) {
+  .comingsoon .contactus {
+    margin-top: 200px;
+  }
+}

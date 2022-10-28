@@ -1,0 +1,1 @@
+console.log("Euphorians 2022");
